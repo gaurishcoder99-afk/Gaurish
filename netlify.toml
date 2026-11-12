@@ -1,0 +1,18 @@
+# Netlify configuration file for SANGM'S Online Store
+# Build command and output directory
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Single Page Application (SPA) redirect rule
+# Ensures all routes (e.g., /admin, /catalog, /checkout) return index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Cache static assets for fast load times
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

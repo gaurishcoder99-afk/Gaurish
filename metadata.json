@@ -1,0 +1,8 @@
+{
+  "name": "SANGM'S — Women's Premium Clothing Store",
+  "description": "Wear Your Style. Own Your Identity. Exclusive contemporary women's, ladies' and girls' apparel and accessories based in Todinagar, Sikar, Rajasthan, India.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
